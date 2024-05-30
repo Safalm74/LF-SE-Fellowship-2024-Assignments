@@ -1,29 +1,32 @@
-.experience{
 
-}
-.experience__list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-self: flex-start;
-    gap: 1rem;
-}
 .experience__left-box{
-
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 
 }
 .experience__left-box-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 .experience__left-box-lower{
     display: flex;
-    justify-content: space-between;
-
-}
-
-.experience__left-box-description-box{
-
+    flex-wrap: wrap;
 }
 .experience__right-box{
+    flex: 2;
+}
+.experience-instbox{
+    padding: 1.2rem;
+}
 
+@media only screen and (min-width: 800px) {
 
+.experience-instbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+}
 }

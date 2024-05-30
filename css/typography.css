@@ -2,11 +2,13 @@ html{
     font:10px
 }
 .profile-font{
+    font-family: 'outfit',Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 3.232rem;
     line-height: 4.04rem;
 }
 .profile-font-designation{
+    font-family: 'outfit',Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 5.21rem;
     line-height: 1.616rem;
@@ -25,19 +27,21 @@ html{
 
 }
 .description-primary{
+    font-family: "DM sans",sans-serif;
     font-weight: 400;
     font-size: 1.21rem;
     line-height: 1.616rem;
 
 }
 .description-secondary{
-
+    font-family: "DM sans",sans-serif;
     font-weight: 400;
     font-size: 1.01rem;
     line-height: 1.315rem;
 }
 
 .topic-primary{
+    font-family: 'outfit',Arial, Helvetica, sans-serif;
 
     font-weight: 500;
     font-size: 2.424rem;
@@ -54,6 +58,7 @@ html{
 }*/
 
 .sub-topic-primary{
+    font-family: "DM sans",sans-serif;
 
     font-weight: 500;
     font-size: 1.616rem;
@@ -61,6 +66,7 @@ html{
 
 }
 .sub-topic-secondary{
+    font-family: "DM sans",sans-serif;
 
     font-weight: 500;
     font-size: 1.414rem;

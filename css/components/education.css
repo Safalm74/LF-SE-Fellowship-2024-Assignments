@@ -5,7 +5,8 @@
 .education-box{
     display: flex;
     flex-wrap: wrap;
-    gap:1rem
+    gap:1rem;
+    margin-bottom: 4.848rem;
 }
 .education-instbox{
     display: flex;
