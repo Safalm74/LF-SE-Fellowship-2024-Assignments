@@ -12,11 +12,9 @@
 
 }
 .experience__left-box-top{
-    background-color: aqua;
 
 }
 .experience__left-box-lower{
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
 
@@ -26,7 +24,6 @@
 
 }
 .experience__right-box{
-    background-color: blanchedalmond;
 
 
 }
