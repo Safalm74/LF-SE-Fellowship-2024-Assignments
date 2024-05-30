@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lsb{
+    background-color: #F7F9FC;
+    width: 100%;
+}
+.rsb{
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 769px) {
+    .lsb{
+        width: 28.58%;
+    }
+    .rsb{
+        width: 71.42%;
+    }
+    
+}
