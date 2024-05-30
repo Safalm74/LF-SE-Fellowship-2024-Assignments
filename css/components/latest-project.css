@@ -4,6 +4,7 @@
 }
 
 .latest-projets-instbox{
+    flex:1;
     background-color: #F7F9FC;
     border-radius: 2px;
     display: flex;

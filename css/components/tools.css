@@ -1,7 +1,8 @@
 tools-box{
     display:flex;
     flex-direction: column;
-    gap: 1.8rem;
+    justify-content: flex-start;
+    gap: 1rem;
 }
 .tools-box-upper,
 .tools-box-lower{
@@ -9,8 +10,14 @@ tools-box{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1rem;
+}
+.tools-box-lower{
+    margin-top: 1rem;
 }
 .tools-inst{
+    padding:1.2rem;
+    flex:1 1 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
