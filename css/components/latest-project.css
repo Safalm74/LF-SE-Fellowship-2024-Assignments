@@ -9,6 +9,7 @@
     border-radius: 2px;
     display: flex;
     flex-direction: column;
+    padding: 2rem;
 }
 .latest-projets-box{
     display: flex;
@@ -36,4 +37,6 @@
     justify-content: flex-start;
 }
 
-.latest-projets-link{}
+.latest-projets-link{
+    padding-left: 2rem;
+}

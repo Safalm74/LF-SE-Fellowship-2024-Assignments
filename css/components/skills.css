@@ -28,13 +28,13 @@
 .skills >*{
     margin: 0 5rem;
 }
-#web{
+.web{
     flex:2;
 }
-#skill-li{
+.skill-li{
     flex: 1;
 }
-#Design{
+.Design{
     flex: 1;
 }
 .wrap{
@@ -44,6 +44,3 @@
     padding: 1.6rem;
 }
 
-.timeline-round--inner{
-    
-}
