@@ -22,5 +22,6 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    padding: 1.5rem;
 
 }

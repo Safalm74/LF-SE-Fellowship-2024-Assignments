@@ -44,3 +44,6 @@
     padding: 1.6rem;
 }
 
+.wrap:first-child{
+    margin: left 2.5rem; ;
+}
