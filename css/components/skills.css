@@ -8,6 +8,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+}.skills-upper li,
+.skills-lower li{
+    margin-left: auto;
+    padding-left: 2rem;
 }
 .skills-upper{
     color: rgba(146, 81, 247, 1);
@@ -19,6 +24,7 @@
     flex: 1;
 
 }
+
 .skills >*{
     margin: 0 5rem;
 }
@@ -30,4 +36,14 @@
 }
 #Design{
     flex: 1;
+}
+.wrap{
+    flex:1;
+    background-color: #F7F9FC;
+    margin: 1rem;
+    padding: 1.6rem;
+}
+
+.timeline-round--inner{
+    
 }
