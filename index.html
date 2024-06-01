@@ -15,6 +15,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     
+    <!--Layouts-->
+    <link rel="stylesheet" href="css/layout/grid.css">
+    <link rel="stylesheet" href="css/layout/epigraph.css">
+    <link rel="stylesheet" href="css/layout/quad-infobox.css">
+    <link rel="stylesheet" href="css/layout/education.css">
+    <link rel="stylesheet" href="css/layout/experience.css">
+    <link rel="stylesheet" href="css/layout/skills.css">
+    <link rel="stylesheet" href="css/layout/tools.css">
+    <link rel="stylesheet" href="css/layout/latest-project.css">
+
+    <!--base-->
+    <link rel="stylesheet" href="css/base/base.css">
+    <link rel="stylesheet" href="css/base/typography.css">
+    <link rel="stylesheet" href="css/base/utilities.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -29,23 +44,23 @@
     <link rel="stylesheet" href="css/components/education.css">
     <link rel="stylesheet" href="css/components/skills.css">
     <link rel="stylesheet" href="css/components/tools.css">
+    <link rel="stylesheet" href="css/components/timeline.css">
 </head>
 <body>
     <main class="container">
-        <!-- lsb=>left-side-box -->
-        <section class="lsb"> 
-            <!--FIgure-->
-            <figure class="lsb__figure">
+        <!-- Section-Left -->
+        <section class="container__section-left"> 
+            <!--Figure-->
+            <figure class="section-left__figure">
                 <img 
-                alt="profile" 
+                alt="profile-image" 
                 src="img/img.png" 
-                class="lsb__figure-img">
+                class="figure-img">
             </figure>
 
-            <!--About Me LSB-->
-            <!--Name and quote-->
-            <div class="lsb__aboutme-container">
-                <div class="lsb__aboutme-name-box">
+            <!--epigraph-->
+            <div class="section-left__epigraph">
+                <div class="epigraph__name-designation">
                     <h1 class="profile-font">
                         Chiara Bianchi
                     </h1>
@@ -53,26 +68,36 @@
                         Product Designer
                     </p>
                 </div>
-                <div class="lsb__aboutme-quotebox">
+
+                <div class="epigraph__quote-box">
+                    <div class="quote-box__quote">
+                        &#34;
+                    </div>
                     <p class="quote-font">
-                        &#34; Design isn't finished until somebody is using it.&#34;
+                         Design isn't finished until somebody is using it.
                     </p>
-                    <p class="description-primary">
+                    <div class="quote-box__quote quote-box__quote--lower">
+                        &#34;
+                    </div>
+                </div>
+                <div>
+                    <p class="description-primary u-margin-bottom">
                         Brenda Laurel
                     </p>
                 </div>
-                <hr>
             </div>
+
+
             <!-- Contact info-->
-            <div class="contact contact-box">
-                <div class="contact-instbox">
-                    <figure class="round-icon">
+            <ul class="section-left__contact section-left__quad-infobox u-margin-left-right-big">
+                <li class="quad-infobox__innerbox u-icon-center">
+                    <figure class="round-icon ">
                         <img 
                         alt="profile" 
                         src="img/contact1.svg" 
                         class="icon">
                     </figure>
-                    <div class="contact-description-box">
+                    <div class="quad-infobox__discription-box">
                         <p class="discription-primary">
                             Email
                         </p>
@@ -80,16 +105,15 @@
                             chiara.bianchi@gmail.com
                         </p>
                     </div>
-                </div>
-
-                <div class="contact-instbox">
+                </li>
+                <li class="quad-infobox__innerbox u-icon-center">
                     <figure class="round-icon">
                         <img 
                         alt="profile" 
                         src="img/contact2.svg" 
                         class="icon">
                     </figure>
-                    <div class="contact-description-box">
+                    <div class="quad-infobox__discription-box">
                         <p class="discription-primary">
                             Website
                         </p>
@@ -97,16 +121,16 @@
                             https://aldesign.it
                         </p>
                     </div>
-                </div>
+                </li>
 
-                <div class="contact-instbox">
+                <li class="quad-infobox__innerbox u-icon-center">
                     <figure class="round-icon">
                         <img 
                         alt="profile" 
                         src="img/contact3.svg" 
                         class="icon">
                     </figure>
-                    <div class="contact-description-box">
+                    <div class="quad-infobox__discription-box">
                         <p class="discription-primary">
                             Phone
                         </p>
@@ -114,40 +138,39 @@
                             (+39) 333 0123 765
                         </p>
                     </div>
-                </div>
+                </li>
 
-                <div class="contact-instbox">
+                <li class="quad-infobox__innerbox u-icon-center">
                     <figure class="round-icon">
                         <img 
                         alt="profile" 
                         src="img/contact4.svg" 
                         class="icon">
                     </figure>
-                    <div class="contact-description-box">
+                    <div class="quad-infobox__discription-box">
                         <p class="discription-primary">
                             Address</p>
                         <p class="sub-topic-secondary">
                             Bologna, Italy
                         </p>
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
 
-            <hr>
             <!-- Social media info-->
-            <div class="contact">
-                <p class="description-primary u-margin-bottom">
+            <div class="section-left__social u-margin-left-right-big">
+                <p class="description-primary u-margin-top-bottom-big">
                     Socials
                 </p>
-                <div class="contact-box">
-                    <div class="contact-instbox">
+                <ul class="section-left__contact section-left__quad-infobox">
+                    <li class="quad-infobox__innerbox u-icon-center">
                         <figure class="round-icon">
                             <img 
                             alt="profile" 
                             src="img/insta.svg" 
                             class="icon">
                         </figure>
-                        <div class="contact-description-box">
+                        <div class="quad-infobox__discription-box">
                             <p class="discription-primary">
                                 Instagram
                             </p>
@@ -155,16 +178,16 @@
                                 @chiara.designs
                             </p>
                         </div>
-                    </div>
+                    </li>
     
-                    <div class="contact-instbox">
+                    <li class="quad-infobox__innerbox u-icon-center">
                         <figure class="round-icon">
                             <img 
                             alt="profile" 
                             src="img/tweeter.svg" 
                             class="icon">
                         </figure>
-                        <div class="contact-description-box">
+                        <div class="quad-infobox__discription-box">
                             <p class="discription-primary">
                                 Twitter
                             </p>
@@ -172,16 +195,16 @@
                                 @chiaradesigns
                             </p>
                         </div>
-                    </div>
+                    </li>
     
-                    <div class="contact-instbox">
+                    <li class="quad-infobox__innerbox u-icon-center">
                         <figure class="round-icon">
                             <img 
                             alt="profile" 
                             src="img/dribble.svg" 
                             class="icon">
                         </figure>
-                        <div class="contact-description-box">
+                        <div class="quad-infobox__discription-box">
                             <p class="discription-primary">
                                 Dribbble
                             </p>
@@ -189,42 +212,39 @@
                                 @chiara-designs
                             </p>
                         </div>
-                    </div>
+                    </li>
     
-                    <div class="contact-instbox">
+                    <li class="quad-infobox__innerbox u-icon-center">
                         <figure class="round-icon">
                             <img 
                             alt="profile" 
                             src="img/linkedin.png" 
                             class="icon">
                         </figure>
-                        <div class="contact-description-box">
+                        <div class="quad-infobox__discription-box">
                             <p class="discription-primary">
                                 Linkedin</p>
                             <p class="sub-topic-secondary">
                                 chiara-bianchi-123
                             </p>
                         </div>
-                    </div>
-                </div>
-                    
-               
+                    </li>
+                </ul>
             </div>
-            <hr>
             <!-- languages-->
-            <div class="contact">
-                <p class="description-primary u-margin-bottom">
+            <div class="section-left__languages u-margin-left-right-big">
+                <p class="description-primary u-margin-top-bottom-big">
                     Languages
                 </p>
-                <div class="contact-box">
-                    <div class="contact-instbox">
-                        <figure class="rect-icon">
+                <ul class="section-left__contact section-left__quad-infobox">
+                    <li class="quad-infobox__innerbox u-icon-center">
+                        <figure class="square-icon">
                             <img 
                             alt="profile" 
                             src="img/Flag_italian.svg" 
                             class="icon">
                         </figure>
-                        <div class="contact-description-box">
+                        <div class="quad-infobox__discription-box">
                             <p class="sub-topic-secondary">
                                 Italian
                             </p>
@@ -232,16 +252,16 @@
                                 Native
                             </p>
                         </div>
-                    </div>
+                    </li>
     
-                    <div class="contact-instbox">
-                        <figure class="rect-icon">
+                    <li class="quad-infobox__innerbox u-icon-center">
+                        <figure class="square-icon">
                             <img 
                             alt="profile" 
                             src="img/Flag_greek.svg" 
                             class="icon">
                         </figure>
-                        <div class="contact-description-box">
+                        <div class="quad-infobox__discription-box">
                             <p class="sub-topic-secondary">
                                 Greek
                             </p>
@@ -249,73 +269,71 @@
                                 Native
                             </p>
                         </div>
-                    </div>
+                    </li>
     
-                    <div class="contact-instbox">
-                        <figure class="rect-icon">
+                    <li class="quad-infobox__innerbox u-icon-center">
+                        <figure class="square-icon">
                             <img 
                             alt="profile" 
                             src="img/Flag_english.svg" 
                             class="icon">
                         </figure>
-                        <div class="contact-description-box">
+                        <div class="quad-infobox__discription-box">
                             <p class="sub-topic-secondary">
                                 English
                             </p>
                             <p class="discription-primary">
-                                Professional working
+                                Profesional working
                             </p>
                         </div>
-                    </div>
+                    </li>
     
-                    <div class="contact-instbox">
-                        <figure class="rect-icon">
+                    <li class="quad-infobox__innerbox u-icon-center">
+                        <figure class="square-icon">
                             <img 
                             alt="profile" 
                             src="img/Flag_Spanish.svg" 
                             class="icon">
                         </figure>
-                        <div class="contact-description-box">
-                            <p class="discription-primary">
-                                Spanish</p>
+                        <div class="quad-infobox__discription-box">
+                            <p class="sub-topic-secondary">
+                                Spanish
+                            </p>
                             <p class="discription-primary">
                                 Elementary
                             </p>
                         </div>
-                    </div>
-                </div>
-                    
-               
+                    </li>
+                </ul>
             </div>
-
-
         </section>
     
-        <!-- Right side box-->
+        <!--section-right-->
+        <section class="container__section-right">
+            <!--latest projects-->
+            <div class="section-right__outer-box timeline">
+                <figure class="round-big-icon">
+                    <img 
+                    alt="time-line" 
+                    src="img/dot.svg" 
+                    class="timeline-icon">
+                </figure>
 
-        <section class="rsb">
-            <div class="rsb__left-border">
-                <!--latest projects-->
-                <div class="latest-projets timeline">
-                    <figure class="round-big-icon">
-                        <img 
-                        alt="profile" 
-                        src="img/dot.svg" 
-                        class="timeline-round">
-                    </figure>
-                    <h2 class="topic-primary">
-                        Latest projects
-                    </h2>
-                    <div class="latest-projets-box">
-                        <div class="latest-projets-instbox">
-                            <div class="latest-projets-box-upper">
+                <h2 class="topic-primary">
+                    Latest projects
+                </h2>
+                <div class="section-right__inner-box ">
+                    <div class="latest-projects">
+                        <!--lp1-->
+                        <div class="latest-projects__innerbox">
+                            <div class="latest-projects__innerbox-upper">
                                 <figure class="square-icon">
                                     <img 
                                     alt="profile" 
                                     src="img/latest-project1.svg" 
-                                    class="lsb__figure-img">
+                                    class="figure-img">
                                 </figure>
-                                <div class="latest-projets-box-description">
+                                <div class="latest-projects__description-box">
                                     <p class="sub-topic-primary">
                                         Powerful Design System
                                     </p>
@@ -325,14 +343,14 @@
                                 </div>
                             </div>
 
-                            <div class="latest-projets-box-lower">
+                            <div class="latest-projects__innerbox-lower">
                                 <figure class="round-icon">
                                     <img 
                                     alt="profile" 
                                     src="img/latest-project3.svg" 
-                                    class="lsb__figure-img">
+                                    class="figure-img">
                                 </figure>
-                                <div class="latest-projets-link">
+                                <div class="latest-projects__link">
                                     <a 
                                     class="sub-topic-primary" 
                                     href="https://www.figma.com/@angelolibero">
@@ -341,103 +359,71 @@
                                 </div>
                             </div> 
                         </div>
-
-                    <div class="latest-projets-instbox">
-                        <div class="latest-projets-box-upper">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/latest-project2.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <div class="latest-projets-box-description">
-                                <p class="sub-topic-primary">
-                                    Powerful Design System
-                                </p>
-                                <p class="sub-topic-secondary">
-                                    Figma UI Kit and Design System targeting a wide variety of use cases.
-                                </p>
+                        <!--lp2-->
+                        <div class="latest-projects__innerbox">
+                            <div class="latest-projects__innerbox-upper">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/latest-project2.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <div class="latest-projects__description-box">
+                                    <p class="sub-topic-primary">
+                                        Powerful Design System
+                                    </p>
+                                    <p class="sub-topic-secondary">
+                                        Figma UI Kit and Design System targeting a wide variety of use cases.
+                                    </p>
+                                </div>
                             </div>
+
+                            <div class="latest-projects__innerbox-lower">
+                                <figure class="round-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/latest-project3.svg" 
+                                    class="figure-img">
+                                </figure>
+                                <div class="latest-projects__link">
+                                    <a 
+                                    class="sub-topic-primary" 
+                                    href="https://www.figma.com/@angelolibero">
+                                    https://www.figma.com 
+                                    </a>
+                                </div>
+                            </div>                  
                         </div>
-
-                        <div class="latest-projets-box-lower">
-                            <figure class="round-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/latest-project3.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <div class="latest-projets-link">
-                                <a 
-                                class="sub-topic-primary" 
-                                href="https://www.figma.com/@angelolibero">
-                                https://www.figma.com 
-                                </a>
-                            </div>
-                        </div>                  
-                    </div>
-                    </div> 
-                
+                </div>
+            </div>  
             </div>
-            <!--Experience-->
-            <div class="experience timeline">
-
+            <!--experience-->
+            <div class="section-right__outer-box timeline">
                 <figure class="round-big-icon">
                     <img 
-                    alt="profile" 
+                    alt="time-line" 
                     src="img/dot.svg" 
-                    class="timeline-round">
+                    class="timeline-icon">
                 </figure>
                 <h2 class="topic-primary">
                     Experience
                 </h2>
-                <div class="experience-box">
-                    <div class="experience-instbox">
-                    <div class="experience__left-box">
-                            
-                            <div class="experience__left-box-top">
-                                <span>
-                                    Jul 20 - Jan 2022
-                                </span>
-                                <figure class="round-icon">
-                                    <img 
-                                    alt="profile" 
-                                    src="img/location.svg" 
-                                    class="icon">
-                                </figure>
-                                <span>
-                                    Cupertino
-                                </span>
-                            </div>
-                            <div class="experience__left-box-lower">
-                                <figure class="square-icon">
-                                    <img 
-                                    alt="profile" 
-                                    src="img/experience1.svg" 
-                                    class="lsb__figure-img">
-                                </figure>
-                                <div class="experience__left-box-description-box">
-                                    <h2 class="description-primary">
-                                        Product designer
-                                    </h2>
-                                    <p class="sub-topic-secondary">
-                                        Apple
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="section-right__inner-box ">
                     
-                    <div class="experience__right-box">
-                        <span class="description-secondary">
-                            Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor impedit dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia voluptatem.
-                        </span>
-                    </div>
-                    </div>
-                    <div class="experience-instbox">
+                    <div class="experience">
+                        <!--exp1-->
+                        <div class="experience__wrapper timeline--smaller">
+                            <figure class="round-big-icon">
+                                <img 
+                                alt="time-line" 
+                                src="img/dot_04_l.svg" 
+                                class="timeline-icon--smaller">
+                            </figure>
                         <div class="experience__left-box">
-                                <div class="experience__left-box-top">
+                                <div class="experience__top-box">
+                                    
                                     <span>
-                                        Oct 2015 - Mar 2020
+                                        Jul 20 - Jan 2022
                                     </span>
                                     <figure class="round-icon">
                                         <img 
@@ -446,46 +432,95 @@
                                         class="icon">
                                     </figure>
                                     <span>
-                                        Austin
+                                        Cupertino
                                     </span>
                                 </div>
-                                <div class="experience__left-box-lower">
-                                    <figure class="square-icon">
+                                <div class="experience__lower-box">
+                                    <figure class="square-icon experience__icon">
                                         <img 
-                                        alt="profile" 
-                                        src="img/experience2.svg" 
+                                        alt="experience" 
+                                        src="img/experience1.svg" 
                                         class="lsb__figure-img">
                                     </figure>
                                     <div class="experience__left-box-description-box">
-                                        <h2 class="description-primary">
-                                            UX Designer
+                                        <h2 class="description-primary ">
+                                            Product designer
                                         </h2>
                                         <p class="sub-topic-secondary">
-                                            Tesla
+                                            Apple
                                         </p>
                                     </div>
                                 </div>
-                          </div>
+                            </div>
+                        
                         <div class="experience__right-box">
                             <span class="description-secondary">
                                 Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor impedit dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia voluptatem.
                             </span>
                         </div>
                         </div>
-
-                    </div>
-                        
-                    <div class="experience-box">
-                        <div class="experience-instbox">
+                        <!--exp2-->
+                        <div class="experience__wrapper timeline--smaller">
+                            <figure class="round-big-icon">
+                                <img 
+                                alt="time-line" 
+                                src="img/dot_04_l.svg" 
+                                class="timeline-icon--smaller">
+                            </figure>
                             <div class="experience__left-box">
-                                    <div class="experience__left-box-top">
+                                    <div class="experience__top-box">
+                                        <span>
+                                            Oct 2015 - Mar 2020
+                                        </span>
+                                        <figure class="round-icon">
+                                            <img 
+                                            alt="experience" 
+                                            src="img/location.svg" 
+                                            class="icon u-padding-0">
+                                        </figure>
+                                        <span>
+                                            Austin
+                                        </span>
+                                    </div>
+                                    <div class="experience__lower-box">
+                                        <figure class="square-icon experience__icon">
+                                            <img 
+                                            alt="profile" 
+                                            src="img/experience2.svg" 
+                                            class="lsb__figure-img">
+                                        </figure>
+                                        <div class="experience__left-box-description-box ">
+                                            <h2 class="description-primary">
+                                                UX Designer
+                                            </h2>
+                                            <p class="sub-topic-secondary">
+                                                Tesla
+                                            </p>
+                                        </div>
+                                    </div>
+                              </div>
+                            <div class="experience__right-box">
+                                <span class="description-secondary">
+                                    Commodi atque sit ut qui assumenda earum aperiam occaecati voluptates. Fuga quas aut soluta nostrum et beatae. Maiores repudiandae quibusdam autem enim ut in possimus ad.</span>
+                            </div>
+                            </div>
+                        <!--exp3-->  
+                        <div class="experience__wrapper timeline--smaller">
+                            <figure class="round-big-icon">
+                                <img 
+                                alt="time-line" 
+                                src="img/dot_04_l.svg" 
+                                class="timeline-icon--smaller">
+                            </figure>
+                            <div class="experience__left-box">
+                                    <div class="experience__top-box">
                                         <span>
                                             Sep 2014 - Aug 2015
 
                                         </span>
                                         <figure class="round-icon">
                                             <img 
-                                            alt="profile" 
+                                            alt="experience" 
                                             src="img/location.svg" 
                                             class="icon">
                                         </figure>
@@ -493,8 +528,8 @@
                                             Mountain View
                                         </span>
                                     </div>
-                                    <div class="experience__left-box-lower">
-                                        <figure class="square-icon">
+                                    <div class="experience__lower-box">
+                                        <figure class="square-icon experience__icon">
                                             <img 
                                             alt="profile" 
                                             src="img/experience3.svg" 
@@ -513,19 +548,27 @@
                             
                             <div class="experience__right-box">
                                 <span class="description-secondary">
-                                    Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor impedit dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia voluptatem.
+                                    Ut molestias animi. Neque voluptate velit corporis adipisci voluptate et qui sed neque. Inventore eos non. Qui eveniet quo incidunt nemo.
                                 </span>
                             </div>
                             </div>
-                            <div class="experience-instbox">
+
+                        <!--exp4-->
+                            <div class="experience__wrapper timeline--smaller">
+                                <figure class="round-big-icon">
+                                    <img 
+                                    alt="time-line" 
+                                    src="img/dot_04_l.svg" 
+                                    class="timeline-icon--smaller">
+                                </figure>
                                 <div class="experience__left-box">
-                                        <div class="experience__left-box-top">
+                                        <div class="experience__top-box">
                                             <span>
                                                 Sep 2010 - Jul 2013
                                             </span>
                                             <figure class="round-icon">
                                                 <img 
-                                                alt="profile" 
+                                                alt="experience" 
                                                 src="img/location.svg" 
                                                 class="icon">
                                             </figure>
@@ -533,8 +576,8 @@
                                                 Cupertino
                                             </span>
                                         </div>
-                                        <div class="experience__left-box-lower">
-                                            <figure class="square-icon">
+                                        <div class="experience__lower-box">
+                                            <figure class="square-icon experience__icon">
                                                 <img 
                                                 alt="profile" 
                                                 src="img/experience4.svg" 
@@ -553,302 +596,355 @@
                                 
                                 <div class="experience__right-box">
                                     <span class="description-secondary">
-                                        Omnis minima inventore minus. Aut et incidunt. Aut fugiat culpa illum optio dolorum aut maxime ipsa. Laborum incidunt enim consectetur perspiciatis. Dolore ullam dolor impedit dolorum recusandae facilis quo et. Et ipsam vel sunt qui ut officia voluptatem.
+                                        Non in fugiat aut consequatur deleniti. Consequuntur impedit modi asperiores impedit ut ea aut eligendi doloremque. Fugit laborum ducimus hic tempore velit. Sed vitae et corrupti omnis temporibus. Unde voluptas quaerat ea rerum aspernatur autem assumenda animi fugit. Omnis laborum velit voluptatum similique accusantium eveniet voluptatem.
                                     </span>
                                 </div>
-                                </div>
+                            </div>
+                        </div>
                 </div>
-            </div>
-            <!--education-->
-            <div class="education timeline">
+            </div>  
+
+
+            <!--Education-->
+            <div class="section-right__outer-box timeline">
                 <figure class="round-big-icon">
                     <img 
-                    alt="profile" 
+                    alt="time-line" 
                     src="img/dot.svg" 
-                    class="timeline-round">
+                    class="timeline-icon">
                 </figure>
+
                 <h2 class="topic-primary">
                     Education
                 </h2>
-                <div class="education-box">
-                    <div class="education-instbox">
-                        <div class="education-box-upper">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/education1.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="description-primary">
-                                Memorisely
-                            </p>
+                <div class="section-right__inner-box ">
+                    <div class="education">
+                        <div class="education__wrapper">
+                            <div class="education__upper-box"">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/education1.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="description-primary">
+                                    Memorisely
+                                </p>
+                            </div>
+                            <div class="education__lower-box"">
+                                <p class="sub-topic-primary">
+                                    Build a design system
+                                </p>
+                                <p class="description-secondary">
+                                    oct 2021
+                                </p>
+                            </div>
                         </div>
-                        <div class="education-box-lower">
-                            <p class="sub-topic-primary">
-                                Build a design system
-                            </p>
-                            <p class="description-secondary">
-                                oct 2021
-                            </p>
+                        <div class="education__wrapper">
+                            <div class="education__upper-box"">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/education2.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="description-primary">
+                                    UX acadamy
+                                </p>
+                            </div>
+                            <div class="education-box-lower">
+                                <p class="sub-topic-primary">
+                                    UX Design certificate
+                                </p>
+                                <p class="description-secondary">
+                                    Feb 2020
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="education-instbox">
-                        <div class="education-box-upper">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/education2.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="description-primary">
-                                UX acadamy
-                            </p>
-                        </div>
-                        <div class="education-box-lower">
-                            <p class="sub-topic-primary">
-                                UX Design certificate
-                            </p>
-                            <p class="description-secondary">
-                                Feb 2020
-                            </p>
-                        </div>
-                    </div>
-                    <div class="education-instbox">
-                        <div class="education-box-upper">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/education3.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="description-primary">
-                                Coursera
-                            </p>
-                        </div>
-                        <div class="education-box-lower">
-                            <p class="sub-topic-primary">
-                                Usera reasearch course
-                            </p>
-                            <p class="description-secondary">
-                                Dec 2019
-                            </p>
+                        <div class="education__wrapper">
+                            <div class="education__upper-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/education3.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="description-primary">
+                                    Coursera
+                                </p>
+                            </div>
+                            <div class="education-box-lower">
+                                <p class="sub-topic-primary">
+                                    Usera reasearch course
+                                </p>
+                                <p class="description-secondary">
+                                    Dec 2019
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!--skills-->
-            <div class="skills timeline" style="margin: 2rem 0;">
+            <div class="section-right__outer-box timeline">
+                <figure class="round-big-icon">
+                    <img 
+                    alt="time-line" 
+                    src="img/dot.svg" 
+                    class="timeline-icon">
+                </figure>
 
                 <h2 class="topic-primary">
                     Skills
                 </h2>
-                <div class="skills-upper">
-                    <figure class="square-big-icon skill-icon">
-                        <img 
-                        alt="profile" 
-                        src="img/skills1.svg" 
-                        class="ticon">
-                        <figcaption style="color: black;">
-                            Design
-                        </figcaption>
-                    </figure>
+                <div class="section-right__inner-box skills">
+                    <div class="skills__upper">
+                        <div class="skills_icon-wrapper">
+                            <figure class="round-big-icon skill__icon">
+                            <img 
+                            alt="profile" 
+                            src="img/skills2.svg" 
+                            class="icon">
+                            <figcaption style="color: black;">
+                                Design
+                            </figcaption>
+                            </figure>
+                        </div>
+                        <div class="skills___content-wrapper">
+                            <div class="skills__shade-box">
+                                <div class="skills__vertical-line ">
+                                    <span>
+                                        Web Design
+                                    </span>
+                                </div>
+                                <span>
+                                    Mobile Application
+                                </span>
+                            </div>
+                            
+                            <div class="skills__shade-box">
+                                <span>
+                                    User Experience
+                                </span>
+                            </div>
+
+                            <div class="skills__shade-box">
+                                <ul>
+                                    <li>Wireframing</li>
+                                    <li>Prototyping</li>
+                                    <li>Testing</li>
+                                </ul>
+                            </div>
+                            <div class="skills__shade-box">
+                                <span>
+                                    Design System
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+
                     
-                    <span class="skills-font-gradient sub-topic-secondary wrap web">
-                        web design | Mobile Design
-                    </span>
-                    <div class="skills-font-gradient sub-topic-secondary wrap skill-li">
+                    <div class="skills__lower">
+                        <div class="skills_icon-wrapper">    
+                            <figure class="round-big-icon skill__icon">
+                                <img 
+                                alt="profile" 
+                                src="img/skills1.svg" 
+                                class="icon">
+                                    <figcaption style="color: black;">
+                                        Development
+                                    </figcaption>
+                            </figure>
+                        </div>
 
-                    <ul>
-                        <li>Wireframing</li>
-                        <li>Prototyping</li>
-                        <li>Testing</li>
-                    </ul>
+                        <div class="skills___content-wrapper">
+                            <div class="skills__shade-box">
+                                <ul >
+                                    <li>Chakra UI</li>
+                                    <li>Emotion</li>
+                                    <li>Framer</li>
+                                </ul>
+                            </div>
+                            <div class="skills__shade-box">
+                            <div class="skills__vertical-line ">
+                                <span>
+                                    TypeScript
+                                </span>
+                            </div>
+                            <span>
+                                Node JS
+                            </span>
+                        </div>
 
-                    </div>
-                    <span class="skills-font-gradient sub-topic-secondary wrap Design">
-                        Design System
-                    </span>
-
-                </div>
-                <div class="skills-lower">
-                    <figure class="square-big-icon skill-icon">
-                        <img 
-                        alt="profile" 
-                        src="img/skills2.svg" 
-                        class="ticon">
-                        <figcaption style="color: black;">
-                            Development
-                        </figcaption>
-                    </figure>
-                    <div class="skills-font-gradient sub-topic-secondary wrap skill-li" >
-
-                    <ul >
-                        <li>Chakra UI</li>
-                        <li>Emotion</li>
-                        <li>Framer</li>
-                    </ul>
-
-                    </div>
-                    <span class="skills-font-gradient sub-topic-secondary wrap web">
-                        Typescript | Next JS
-                    </span>
-                    <div style="flex: 1;" class="wrap" >
-                        <span class="skills-font-gradient sub-topic-secondary " >
-                            HTML 
-                        </span>
-                        <div style="display: flex;">
-                            <span class="skills-font-gradient sub-topic-secondary" >CSS</span>
-                            <span class="skills-font-gradient sub-topic-secondary"  >JS</span>
+                        <div class="skills__shade-box ">
+                            <div class="skills__vertical-line ">
+                                <span>
+                                    HTML
+                                </span>
+                            </div>
+                            <div>
+                                <div class="skills__horizontal-line ">
+                                <span>CSS</span>
+                            </div>
+                    
+                            <P>
+                                js
+                            </P>
+                            </div>
+                            
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="tools timeline">
-
-                    <figure class="round-big-icon">
-                        <img 
-                        alt="profile" 
-                        src="img/dot.svg" 
-                        class="timeline-round">
-                    </figure>
+            <!--Tools-->
+            <div class="section-right__outer-box">
+                <figure class="round-big-icon">
+                    <img 
+                    alt="time-line" 
+                    src="img/dot.svg" 
+                    class="timeline-icon">
+                </figure>
                 <h2 class="topic-primary">
-                    Tools
+                   Tools
                 </h2>
-                <div class="tools-box">
-                    <div class="tools-box-upper">
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools1.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                Figma
-                            </p>
-                            <p class="description-secondary">
-                                UI Design prototyping
-                            </p>
+                <div class="section-right__inner-box ">
+                    <div class="tools">
+                        <div class="tools__wrapper u-margin-bottom-small">
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools1.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    Figma
+                                </p>
+                                <p class="description-secondary">
+                                    UI Design prototyping
+                                </p>
+                            </div>
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools2.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    Maze
+                                </p>
+                                <p class="description-secondary">
+                                    Product research
+                                </p>
+                            </div>
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools3.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    Spline
+                                </p>
+                                <p class="description-secondary">
+                                    3D design </p>
+                            </div>
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools4.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    Zeplin
+                                </p>
+                                <p class="description-secondary">
+                                    Design workspace
+                                </p>
+                            </div>
                         </div>
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools2.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                Maze
-                            </p>
-                            <p class="description-secondary">
-                                Product research
-                            </p>
-                        </div>
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools3.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                Spline
-                            </p>
-                            <p class="description-secondary">
-                                3D design                            </p>
-                        </div>
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools4.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                Zeplin
-                            </p>
-                            <p class="description-secondary">
-                                Design workspace
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="tools-box-lower">
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools5.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                Vectornator
-                            </p>
-                            <p class="description-secondary">
-                                Graphics Design
-                            </p>
-                        </div>
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools6.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                Rotato
-                            </p>
-                            <p class="description-secondary">
-                                Mockups
-                            </p>
-                        </div>
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools7.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                VS Code
-                            </p>
-                            <p class="description-secondary">
-                                Code editor
-                            </p>
-                        </div>
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools9.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                Xcode
-                            </p>
-                            <p class="description-secondary">
-                                iOS development
-                            </p>
-                        </div>
-                        <div class="tools-inst">
-                            <figure class="square-icon">
-                                <img 
-                                alt="profile" 
-                                src="img/tools8.svg" 
-                                class="lsb__figure-img">
-                            </figure>
-                            <p class="sub-topic-primary">
-                                Notion
-                            </p>
-                            <p class="description-secondary">
-                                Project managment
-                            </p>
+    
+                        <div class="tools__wrapper ">
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools5.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    Vectornator
+                                </p>
+                                <p class="description-secondary">
+                                    Graphics Design
+                                </p>
+                            </div>
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools6.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    Rotato
+                                </p>
+                                <p class="description-secondary">
+                                    Mockups
+                                </p>
+                            </div>
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools7.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    VS Code
+                                </p>
+                                <p class="description-secondary">
+                                    Code editor
+                                </p>
+                            </div>
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools9.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    Xcode
+                                </p>
+                                <p class="description-secondary">
+                                    iOS development
+                                </p>
+                            </div>
+                            <div class="tools__shade-box">
+                                <figure class="square-icon">
+                                    <img 
+                                    alt="profile" 
+                                    src="img/tools8.svg" 
+                                    class="lsb__figure-img">
+                                </figure>
+                                <p class="sub-topic-primary">
+                                    Notion
+                                </p>
+                                <p class="description-secondary">
+                                    Project managment
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </section>
     </main>
 </body>

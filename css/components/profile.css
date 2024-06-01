@@ -1,24 +1,7 @@
-.lsb__figure-img{
+.figure-img{
     width: 100%;    
 }
-.lsb__figure{
+.section-left__figure{
     width: 100%;
     object-fit:cover;
-}
-.lsb__aboutme-container{
-    text-align: center;
-}
-
-.lsb__aboutme-name-box{
-    margin: 3.23rem 4.8rem 0 4.8rem ;
-
-
-}
-
-.lsb__aboutme-quotebox{
-    margin-bottom: 3.2rem;
-}
-
-@media only screen and (min-width: 800px) {
-
 }

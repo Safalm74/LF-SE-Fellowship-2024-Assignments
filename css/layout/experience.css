@@ -1,0 +1,47 @@
+
+.experience__wrapper{
+    padding-left: 1rem;
+}
+
+.experience__left-box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.experience__top-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.experience__lower-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start
+}
+.experience__right-box{
+    flex: 3;
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+}
+
+.experience-box{
+    border-left: .4px solid black;
+}
+.experience__icon{
+    flex: 1;
+}
+.experience__left-box-description-box{
+    flex:2
+}
+@media only screen and (min-width: 800px) {
+    .experience__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;    
+        justify-content: space-between;
+    }
+}

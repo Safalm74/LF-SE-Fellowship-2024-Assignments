@@ -1,21 +1,18 @@
-tools-box{
+.tools{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 1rem;
 }
-.tools-box-upper,
-.tools-box-lower{
+.tools__wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
 }
-.tools-box-lower{
-    margin-top: 1rem;
-}
-.tools-inst{
+
+.tools__shade-box{
     padding:1.2rem;
     flex:1 1 auto;
     display: flex;

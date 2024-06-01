@@ -1,0 +1,29 @@
+.section-left__quad-infobox{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2.4rem;
+    column-gap: 2.4rem;
+    list-style: none;
+    padding-bottom: 4.8rem;
+    border-bottom: 1px solid rgba(226, 230, 238, 1);
+}
+.quad-infobox__innerbox{
+    width: 40%;
+    flex-grow:1;
+    text-align: center;
+    display: flex;
+
+}
+.quad-infobox__discription-box{
+  padding-left: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media only screen and (min-width: 769px) {
+  .quad-infobox__innerbox{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    }
+}

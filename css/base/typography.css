@@ -31,6 +31,7 @@ html{
     font-weight: 400;
     font-size: 1.21rem;
     line-height: 1.616rem;
+    display: inline;
 
 }
 .description-secondary{
@@ -38,6 +39,8 @@ html{
     font-weight: 400;
     font-size: 1.01rem;
     line-height: 1.315rem;
+    display: inline;
+
 }
 
 .topic-primary{
@@ -48,14 +51,6 @@ html{
     line-height: 3.232rem;
 
 }
-/*
-.topic-secondary{
-
-    font-weight: 500;
-    font-size: 2.424rem;
-    line-height: 3.232rem;
-
-}*/
 
 .sub-topic-primary{
     font-family: "DM sans",sans-serif;
@@ -71,4 +66,9 @@ html{
     font-weight: 500;
     font-size: 1.414rem;
     line-height: 1.818rem;
+}
+
+
+.quote-box__quote{
+
 }
