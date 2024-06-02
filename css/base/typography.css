@@ -26,49 +26,62 @@ html{
     line-height: 2.424rem;
 
 }
+
+.description-primary,
+.description-secondary{
+    font-family: "DM sans",sans-serif;
+
+}
 .description-primary{
     font-family: "DM sans",sans-serif;
     font-weight: 400;
     font-size: 1.21rem;
     line-height: 1.616rem;
-    display: inline;
-
 }
 .description-secondary{
     font-family: "DM sans",sans-serif;
     font-weight: 400;
     font-size: 1.01rem;
     line-height: 1.315rem;
-    display: inline;
 
 }
 
 .topic-primary{
     font-family: 'outfit',Arial, Helvetica, sans-serif;
-
     font-weight: 500;
     font-size: 2.424rem;
     line-height: 3.232rem;
 
 }
 
-.sub-topic-primary{
+.sub-topic-primary,
+.sub-topic-secondary{
     font-family: "DM sans",sans-serif;
-
     font-weight: 500;
+
+}
+.sub-topic-primary{
     font-size: 1.616rem;
     line-height: 2.02rem;
 
 }
 .sub-topic-secondary{
-    font-family: "DM sans",sans-serif;
-
-    font-weight: 500;
     font-size: 1.414rem;
     line-height: 1.818rem;
 }
 
+.quote-box__quote,
+.quote-font{
+    font-family: 'outfit',Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(71, 81, 107, 1);
+}
 
+.quote-font{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
 .quote-box__quote{
-
+    font-size: 5rem;
 }

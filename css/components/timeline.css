@@ -7,7 +7,6 @@
     transform: translate(-85%,-40%);
 }
 .timeline--smaller{
-    border-left:3px solid rgba(247, 249, 252, 1);
     position: relative;
 }
 

@@ -17,7 +17,12 @@
 }
 .u-padding-left-medium{padding-left: 3rem;}
 
+.u-padding-left-small{padding-left: 2rem;}
+
 .u-margin-bottom-small{
     margin-bottom: 1rem;
 }
 .u-padding-right-small{margin-right:1rem;}
+.u-border-left-small{
+    border-left:3px solid rgba(247, 249, 252, 1);
+}

@@ -12,12 +12,26 @@
 }
 .epigraph__quote-box{
     flex: 1;
-    display: inherit;
+    display: flex;
     flex-direction: row;
     text-align: center;
-    
 }
 .quote-box__quote--lower{
-    display: inherit;
-    align-items:flex-end;
+    display: flex;
+    align-items: flex-end;
+
+}
+.epigraph__quote-wrapper{
+    display: flex;   
+    flex-direction: column;
+}
+.epigraph__quote-box-author{
+    margin: .5rem 2rem;
+}
+
+.quote-icon-left{
+    transform: translateY(-2.8rem);
+}
+.quote-icon-right{
+    transform: translate(-.5rem,-1.8rem);
 }

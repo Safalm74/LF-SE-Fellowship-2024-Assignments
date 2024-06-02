@@ -51,72 +51,12 @@
 .skills__vertical-line{
     display: inline-block;
     border-right: 1px solid rgb(185, 185, 185);
+    padding: 2rem;
+    margin-right: 2rem;
 }
 .skills__horizontal-line{
     border-bottom: 1px solid rgb(185, 185, 185);
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 
-
-
-
-
-/*
-.skills__upper,
-.skills__lower{
-    margin:1.3rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}.skills-upper li,
-.skills-lower li{
-    margin-left: auto;
-    padding-left: 2rem;
-}
-.skills-upper{
-    color: rgba(146, 81, 247, 1);
-}
-.skills-lower{
-    color:rgba(81, 108, 247, 1)
-}
-.skill__icon-wrapper{
-    flex:1;
-}
-.skills__content-wrapper{
-    flex:4;
-}
-.skill__icon{
-    flex:1;
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items:flex-end;
-}
-
-
-
-.skills >*{
-    margin: 0 5rem;
-}
-.web{
-    flex:2;
-}
-.skill-li{
-    flex: 1;
-}
-.Design{
-    flex: 1;
-}
-.wrap{
-    flex:1;
-    background-color: #F7F9FC;
-    margin: 1rem;
-    padding: 1.6rem;
-}
-
-.wrap:first-child{
-    margin: left 2.5rem;
-}
-
-
-*/

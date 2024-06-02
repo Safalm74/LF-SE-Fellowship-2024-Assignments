@@ -29,21 +29,10 @@
     <link rel="stylesheet" href="css/base/base.css">
     <link rel="stylesheet" href="css/base/typography.css">
     <link rel="stylesheet" href="css/base/utilities.css">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/typography.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/icons.css">
+
     <!--components-->
     <link rel="stylesheet" href="css/components/icon.css">
     <link rel="stylesheet" href="css/components/profile.css">
-    <link rel="stylesheet" href="css/components/contact.css">
-    <link rel="stylesheet" href="css/components/latest-project.css">
-    <link rel="stylesheet" href="css/components/experience.css">
-    <link rel="stylesheet" href="css/components/education.css">
-    <link rel="stylesheet" href="css/components/skills.css">
-    <link rel="stylesheet" href="css/components/tools.css">
     <link rel="stylesheet" href="css/components/timeline.css">
 </head>
 <body>
@@ -68,22 +57,24 @@
                         Product Designer
                     </p>
                 </div>
-
-                <div class="epigraph__quote-box">
-                    <div class="quote-box__quote">
-                        &#34;
+                
+                <div class="epigraph__quote-wrapper">
+                    <div class="epigraph__quote-box">
+                        <div class="quote-box__quote">
+                            <img src="img/left-quot.svg" class="quote-icon-left">
+                        </div>
+                        <p class="quote-font">
+                            Design isn't finished until somebody is using it.
+                        </p>
+                        <div class="quote-box__quote quote-box__quote--lower">
+                            <img src="img/right-quot.svg" class="quote-icon-right">
+                        </div>
                     </div>
-                    <p class="quote-font">
-                         Design isn't finished until somebody is using it.
-                    </p>
-                    <div class="quote-box__quote quote-box__quote--lower">
-                        &#34;
+                    <div class="epigraph__quote-box-author">
+                        <p class="description-primary u-margin-bottom">
+                            Brenda Laurel
+                        </p>
                     </div>
-                </div>
-                <div>
-                    <p class="description-primary u-margin-bottom">
-                        Brenda Laurel
-                    </p>
                 </div>
             </div>
 
@@ -218,14 +209,14 @@
                         <figure class="round-icon">
                             <img 
                             alt="profile" 
-                            src="img/linkedin.png" 
+                            src="img/linkedin.svg" 
                             class="icon">
                         </figure>
                         <div class="quad-infobox__discription-box">
-                            <p class="discription-primary">
-                                Linkedin</p>
                             <p class="sub-topic-secondary">
                                 chiara-bianchi-123
+                            <p class="discription-primary">
+                                Linkedin</p>
                             </p>
                         </div>
                     </li>
@@ -311,7 +302,7 @@
         <!--section-right-->
         <section class="container__section-right">
             <!--latest projects-->
-            <div class="section-right__outer-box timeline">
+            <div class="section-right__outer-box timeline u-margin-top-bottom-big">
                 <figure class="round-big-icon">
                     <img 
                     alt="time-line" 
@@ -319,7 +310,7 @@
                     class="timeline-icon">
                 </figure>
 
-                <h2 class="topic-primary">
+                <h2 class="topic-primary ">
                     Latest projects
                 </h2>
                 <div class="section-right__inner-box ">
@@ -405,14 +396,14 @@
                     src="img/dot.svg" 
                     class="timeline-icon">
                 </figure>
-                <h2 class="topic-primary">
+                <h2 class="topic-primary u-margin-top-bottom-big">
                     Experience
                 </h2>
                 <div class="section-right__inner-box ">
                     
                     <div class="experience">
                         <!--exp1-->
-                        <div class="experience__wrapper timeline--smaller">
+                        <div class="experience__wrapper timeline--smaller u-border-left-small">
                             <figure class="round-big-icon">
                                 <img 
                                 alt="time-line" 
@@ -460,7 +451,7 @@
                         </div>
                         </div>
                         <!--exp2-->
-                        <div class="experience__wrapper timeline--smaller">
+                        <div class="experience__wrapper timeline--smaller u-border-left-small">
                             <figure class="round-big-icon">
                                 <img 
                                 alt="time-line" 
@@ -505,7 +496,7 @@
                             </div>
                             </div>
                         <!--exp3-->  
-                        <div class="experience__wrapper timeline--smaller">
+                        <div class="experience__wrapper timeline--smaller u-border-left-small">
                             <figure class="round-big-icon">
                                 <img 
                                 alt="time-line" 
@@ -614,7 +605,7 @@
                     class="timeline-icon">
                 </figure>
 
-                <h2 class="topic-primary">
+                <h2 class="topic-primary u-margin-top-bottom-big">
                     Education
                 </h2>
                 <div class="section-right__inner-box ">
@@ -695,20 +686,21 @@
                     class="timeline-icon">
                 </figure>
 
-                <h2 class="topic-primary">
+                <h2 class="topic-primary u-margin-top-bottom-big">
                     Skills
                 </h2>
                 <div class="section-right__inner-box skills">
                     <div class="skills__upper">
-                        <div class="skills_icon-wrapper">
-                            <figure class="round-big-icon skill__icon">
-                            <img 
-                            alt="profile" 
-                            src="img/skills2.svg" 
-                            class="icon">
-                            <figcaption style="color: black;">
-                                Design
-                            </figcaption>
+                        
+                        <div class="skills_icon-wrapper">    
+                            <figure class="round-icon-medium  skill__icon">
+                                <img 
+                                alt="profile" 
+                                src="img/skills2.svg" 
+                                class="icon">
+                                    <figcaption style="color: black;">
+                                        Design
+                                    </figcaption>
                             </figure>
                         </div>
                         <div class="skills___content-wrapper">
@@ -748,7 +740,7 @@
                     
                     <div class="skills__lower">
                         <div class="skills_icon-wrapper">    
-                            <figure class="round-big-icon skill__icon">
+                            <figure class="round-icon-medium skill__icon">
                                 <img 
                                 alt="profile" 
                                 src="img/skills1.svg" 
@@ -789,8 +781,8 @@
                                 <span>CSS</span>
                             </div>
                     
-                            <P>
-                                js
+                            <P class="u-padding-left-small">
+                                JS
                             </P>
                             </div>
                             
