@@ -17,7 +17,12 @@
 }
 
 /*Padding*/
-
+.u-padding-medium{
+    padding: 2rem;
+}
+.u-padding-small{
+    padding: 1rem;
+}
 .u-padding-left-medium {
     padding-left: 3rem;
 }
