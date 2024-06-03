@@ -1,0 +1,27 @@
+
+.education{
+    margin-top:4.848rem 
+}
+.education-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-bottom: 4.848rem;
+}
+.education-instbox{
+    display: flex;
+    flex-direction: column;
+    background-color:#F7F9FC ;
+    padding: 1.6rem 2.4rem;
+    border-radius: 3px;
+    align-items:flex-start;
+    flex:1;
+}
+.education-box-upper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+
+}

@@ -1,0 +1,42 @@
+.latest-projets{
+    margin-bottom: 4.848rem;
+
+}
+
+.latest-projets-instbox{
+    flex:1;
+    background-color: #F7F9FC;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.latest-projets-box{
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.latest-projets-box-upper{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.616rem;
+}
+
+.latest-projets-box-description{
+    display:flex;
+    flex-direction: column;
+    gap: 1.16rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 1.616rem;
+}
+
+.latest-projets-box-lower{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.latest-projets-link{
+    padding-left: 2rem;
+}
