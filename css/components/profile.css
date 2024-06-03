@@ -1,7 +1,8 @@
-.figure-img{
-    width: 100%;    
-}
-.section-left__figure{
+.figure-img {
     width: 100%;
-    object-fit:cover;
+}
+
+.section-left__figure {
+    width: 100%;
+    object-fit: cover;
 }

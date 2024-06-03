@@ -1,16 +1,18 @@
-.timeline{
+.timeline {
     border-left: 1px solid rgba(226, 230, 238, 1);
     position: relative;
 }
-.timeline-icon{
+
+.timeline-icon {
     position: absolute;
-    transform: translate(-85%,-40%);
+    transform: translate(-85%, -40%);
 }
-.timeline--smaller{ 
+
+.timeline--smaller {
     position: relative;
 }
 
-.timeline-icon--smaller{
+.timeline-icon--smaller {
     position: absolute;
     transform: translateX(-25%);
     left: -.5rem;

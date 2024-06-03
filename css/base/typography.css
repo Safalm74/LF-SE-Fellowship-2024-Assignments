@@ -1,26 +1,28 @@
-html{
-    font:10px
+html {
+    font: 10px
 }
-.profile-font{
-    font-family: 'outfit',Arial, Helvetica, sans-serif;
+
+.profile-font {
+    font-family: 'outfit', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 3.232rem;
     line-height: 4.04rem;
 }
-.profile-font-designation{
-    font-family: 'outfit',Arial, Helvetica, sans-serif;
+
+.profile-font-designation {
+    font-family: 'outfit', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 5.21rem;
     line-height: 1.616rem;
-    background-image: linear-gradient(
-        to right,
-        rgba(164, 120, 232, 1),
-        rgba(81, 108, 247, 1));
+    background-image: linear-gradient(to right,
+            rgba(164, 120, 232, 1),
+            rgba(81, 108, 247, 1));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-.quote-font{
+
+.quote-font {
     font-weight: 400;
     font-size: 1.818rem;
     line-height: 2.424rem;
@@ -28,27 +30,29 @@ html{
 }
 
 .description-primary,
-.description-secondary{
-    font-family: "DM sans",sans-serif;
+.description-secondary {
+    font-family: "DM sans", sans-serif;
 
 }
-.description-primary{
-    font-family: "DM sans",sans-serif;
+
+.description-primary {
+    font-family: "DM sans", sans-serif;
     font-weight: 400;
     font-size: 1.21rem;
     line-height: 1.616rem;
 }
-.description-secondary{
-    font-family: "DM sans",sans-serif;
-    color:rgba(121, 129, 154, 1);
+
+.description-secondary {
+    font-family: "DM sans", sans-serif;
+    color: rgba(121, 129, 154, 1);
     font-weight: 400;
     font-size: 1.01rem;
     line-height: 1.315rem;
 
 }
 
-.topic-primary{
-    font-family: 'outfit',Arial, Helvetica, sans-serif;
+.topic-primary {
+    font-family: 'outfit', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 2.424rem;
     line-height: 3.232rem;
@@ -56,40 +60,44 @@ html{
 }
 
 .sub-topic-primary,
-.sub-topic-secondary{
-    font-family: "DM sans",sans-serif;
+.sub-topic-secondary {
+    font-family: "DM sans", sans-serif;
     font-weight: 500;
 
 }
-.sub-topic-primary{
+
+.sub-topic-primary {
     font-size: 1.616rem;
     line-height: 2.02rem;
 
 }
-.sub-topic-secondary{
+
+.sub-topic-secondary {
     font-size: 1.414rem;
     line-height: 1.818rem;
 }
 
 .quote-box__quote,
-.quote-font{
-    font-family: 'outfit',Arial, Helvetica, sans-serif;
+.quote-font {
+    font-family: 'outfit', Arial, Helvetica, sans-serif;
     color: rgba(71, 81, 107, 1);
 }
 
-.quote-font{
+.quote-font {
 
     font-size: 2rem;
     margin: 0;
     padding: 0;
 }
-.quote-box__quote{
+
+.quote-box__quote {
     font-size: 5rem;
 }
 
-.font-color-light{
-    color:rgba(121, 129, 154, 1);
+.font-color-light {
+    color: rgba(121, 129, 154, 1);
 }
-.font-color-dark{
-    color:rgba(46, 46, 72, 1);
+
+.font-color-dark {
+    color: rgba(46, 46, 72, 1);
 }

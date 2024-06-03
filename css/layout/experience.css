@@ -1,35 +1,38 @@
-
-.experience__wrapper{
+.experience__wrapper {
     padding-left: 1rem;
     transition: all .5s;
 }
 
-.experience__wrapper:hover{
+.experience__wrapper:hover {
     transform: scale(1.02);
 }
 
-.experience__left-box{
+.experience__left-box {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-.experience__left-box *{
-    margin-left:.8rem;
+
+.experience__left-box * {
+    margin-left: .8rem;
 }
-.experience__top-box{
+
+.experience__top-box {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
 }
-.experience__lower-box{
+
+.experience__lower-box {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 2rem;
 }
-.experience__right-box{
+
+.experience__right-box {
     flex: 3;
     display: flex;
     justify-self: flex-end;
@@ -37,20 +40,23 @@
     margin-bottom: 2rem;
 }
 
-.experience-box{
+.experience-box {
     border-left: .4px solid black;
 }
-.experience__icon{
+
+.experience__icon {
     flex: 1;
 }
-.experience__left-box-description-box{
-    flex:2
+
+.experience__left-box-description-box {
+    flex: 2
 }
+
 @media only screen and (min-width: 800px) {
-    .experience__wrapper{
+    .experience__wrapper {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;    
+        width: 100%;
         justify-content: space-between;
     }
 }

@@ -1,31 +1,36 @@
-.skills{
-}
-.skill__icon{
-}
+.skills {}
+
+.skill__icon {}
+
 .skills__upper,
-.skills__lower{
-    margin:1.3rem;
+.skills__lower {
+    margin: 1.3rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 
-}.skills-upper li,
-.skills-lower li{
+
+}
+
+.skills-upper li,
+.skills-lower li {
     margin-left: auto;
     padding-left: 2rem;
 }
-.skills__upper{
+
+.skills__upper {
     color: rgba(146, 81, 247, 1);
     display: flex;
     justify-content: space-between;
 }
-.skills__lower{
+
+.skills__lower {
     display: flex;
     justify-content: space-between;
-    color:rgba(81, 108, 247, 1)
+    color: rgba(81, 108, 247, 1)
 }
-.skill__icon-wrapper{
+
+.skill__icon-wrapper {
     flex: 1;
     padding: .5rem;
     display: flex;
@@ -33,14 +38,16 @@
     align-content: center;
     gap: .5rem;
 }
-.skills__content-wrapper{
-    flex:4;
+
+.skills__content-wrapper {
+    flex: 4;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap:2rem;
+    gap: 2rem;
 }
-.skills__shade-box{
+
+.skills__shade-box {
     display: inline-block;
     background-color: #F7F9FC;
     padding: .5rem 1rem;
@@ -50,22 +57,24 @@
     align-items: center;
     transition: all .5s;
 }
-.skills__shade-box:hover{
-    transform: scale(1.05);
 
+.skills__shade-box:hover {
+    transform: scale(1.05);
 }
-.skills__shade-box ul{
-    padding-left:2rem ;
+
+.skills__shade-box ul {
+    padding-left: 2rem;
 }
-.skills__vertical-line{
+
+.skills__vertical-line {
     display: inline-block;
     border-right: 1px solid rgb(185, 185, 185);
     padding: 2rem;
     margin-right: 2rem;
 }
-.skills__horizontal-line{
+
+.skills__horizontal-line {
     border-bottom: 1px solid rgb(185, 185, 185);
     padding: 2rem;
     margin-bottom: 2rem;
 }
-

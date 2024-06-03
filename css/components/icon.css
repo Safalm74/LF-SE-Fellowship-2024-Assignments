@@ -1,24 +1,22 @@
-
-.icon{
+.icon {
     width: 100%;
 }
-.round-icon{
+
+.round-icon {
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
 }
-.round-icon-medium{
+
+.round-icon-medium {
     width: 3rem;
 }
-.rect-icon{
-    height: 2.42rem;
-    width: 3.23rem;
-}
-.square-icon{
+
+.square-icon {
     height: 4.848rem;
     width: 4.848rem;
 }
 
-.quote-icon{
+.quote-icon {
     width: 100%;
 }

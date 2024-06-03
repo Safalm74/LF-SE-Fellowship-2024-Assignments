@@ -1,40 +1,46 @@
-.section-left__epigraph{
+.section-left__epigraph {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     column-gap: 1.6rem;
 }
-.epigraph__name-designation{
-    flex:1;
+
+.epigraph__name-designation {
+    flex: 1;
     display: inline-block;
 
 }
-.epigraph__quote-box{
+
+.epigraph__quote-box {
     flex: 1;
     display: flex;
     flex-direction: row;
     text-align: center;
 }
-.quote-box__quote--lower{
+
+.quote-box__quote--lower {
     display: flex;
     align-items: flex-end;
 
 }
-.epigraph__quote-wrapper{
-    display: flex;   
+
+.epigraph__quote-wrapper {
+    display: flex;
     flex-direction: column;
     width: 80%;
-    gap:5px;
+    gap: 5px;
     margin-bottom: 3rem;
 }
-.epigraph__quote-box-author{
+
+.epigraph__quote-box-author {
     margin: .5rem 2rem;
 }
 
-.quote-icon-left{
+.quote-icon-left {
     transform: translateY(-2.8rem);
 }
-.quote-icon-right{
-    transform: translate(-.5rem,-1.8rem);
+
+.quote-icon-right {
+    transform: translate(-.5rem, -1.8rem);
 }
