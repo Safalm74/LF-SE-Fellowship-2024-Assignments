@@ -60,6 +60,7 @@
 
 .skills__shade-box:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .skills__shade-box ul {

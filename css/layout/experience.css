@@ -5,6 +5,7 @@
 
 .experience__wrapper:hover {
     transform: scale(1.02);
+    cursor: pointer;
 }
 
 .experience__left-box {
