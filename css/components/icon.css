@@ -1,7 +1,6 @@
 
 .icon{
     width: 100%;
-    height: 100%;
 }
 .round-icon{
     height: 2rem;
@@ -9,9 +8,7 @@
     border-radius: 50%;
 }
 .round-icon-medium{
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
+    width: 3rem;
 }
 .rect-icon{
     height: 2.42rem;

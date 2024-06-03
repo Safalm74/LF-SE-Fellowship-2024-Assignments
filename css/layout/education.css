@@ -12,6 +12,10 @@
     border-radius: 3px;
     align-items:flex-start;
     flex:1;
+    transition: all .5s;
+}
+.education__wrapper:hover{
+    transform: scale(1.02);
 }
 .education__upper-box{
     display: flex;

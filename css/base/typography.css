@@ -90,3 +90,6 @@ html{
 .font-color-light{
     color:rgba(121, 129, 154, 1);
 }
+.font-color-dark{
+    color:rgba(46, 46, 72, 1);
+}

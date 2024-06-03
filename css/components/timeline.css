@@ -6,7 +6,7 @@
     position: absolute;
     transform: translate(-85%,-40%);
 }
-.timeline--smaller{
+.timeline--smaller{ 
     position: relative;
 }
 
