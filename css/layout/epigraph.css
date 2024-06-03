@@ -24,6 +24,9 @@
 .epigraph__quote-wrapper{
     display: flex;   
     flex-direction: column;
+    width: 80%;
+    gap:5px;
+    margin-bottom: 3rem;
 }
 .epigraph__quote-box-author{
     margin: .5rem 2rem;
